@@ -1,0 +1,258 @@
+body{
+background-image: url('Images/background.jpg');
+
+
+}
+html{
+    margin:0
+}
+
+nav{
+    color:white;
+    background-color: black;
+    opacity: .5;
+
+}
+
+#welcome_text{
+    color:white;
+    text-align: center;
+    height: 150px;
+    width: 600px;
+    font-size: 20px;
+    margin-left: 27%;
+    margin-top: 5%;
+      
+}
+
+
+
+.navbar.navbar-1 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger3.svg?color=00FBD8');
+    }
+#profile_pic{
+    background-color:white;
+    background-image: url('Images/0.jpg');
+    border:3px solid white;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: -40%;
+    position: absolute;
+    margin-left: 15%;
+    
+
+}
+.fadeIn {
+    opacity: 0;
+    animation: fadeIn 1.8s forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    30% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .fadeIn2 {
+    opacity: 0;
+    animation: fadeIn 4.5s forwards;
+  }
+  
+  @keyframes fadeIn2 {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    30% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+.nav-item{
+  margin-left: 25px;
+}
+.navbar{
+    margin:0;
+}
+
+a.carousel-control-next{
+  width: 50px;
+  margin-right: 50px;
+}
+.name{
+  margin-left: 54%;
+  margin-top: 10%;
+  position: absolute;
+  font-family: 'Abril Fatface', cursive;
+}
+
+h1{
+  font-family: 'Abril Fatface', cursive;
+}
+#home_profile_pic{
+    background-color:white;
+    background-image: url('Images/0.jpg');
+    border:3px solid white;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 15%;
+    position: absolute;
+    margin-top: 10%;
+    
+}
+
+#contact_name{
+  font-family: 'Abril Fatface', cursive;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    width: 150px;
+}
+.nav-link:hover{
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+#Home_Text{
+    color: white;
+    font-size: 30px;
+    /* text-align: center; */
+    margin-top: 100%;
+    color: black;
+    
+}
+
+.fa-anchor{
+    color: white;
+}
+#top_background{
+    background-color:#807137;
+    height: 30%;
+    width: 100%
+}
+#background{
+    width:80%;
+    height: 600px;
+    background-color: white;   
+    margin-left:10%;
+    margin-top:5%;
+
+}
+#nav{
+  margin-left: 15px;
+}
+
+
+.contact{
+    width:80%;
+    height: 600px;
+    background-color: white;   
+    margin-left:10%;
+    margin-top:5%;
+    opacity: .7;
+    Padding:15px;
+    color: black;
+}
+
+.fa-facebook-f{
+    color: white;
+    margin-left: 72%;
+    margin-top:15px;
+    color: white;
+    position:absolute;
+}
+
+
+.fa-linkedin{
+    margin-left: 75%;
+    margin-top:15px;
+    color: white;
+    position:absolute;
+}
+
+.logo{
+  width:15px;
+  height: 15px;
+}
+#bio_text{
+    width: 350px;
+    height: 100%;
+    padding:5px;
+    margin-left: 50%;
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+}
+
+
+
+#home_button{
+    background:#807137;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:80px;
+    width: 250px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    margin-left: 40%;
+  }
+  #home_button:hover{
+    background:#fff;
+    color:#1AAB8A;
+    
+  }
+  #home_button:before,#home_button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #807137;
+    transition:400ms ease all;
+    
+  }
+  #home_button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+    
+  }
+  #home_button:hover:before,#home_button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  
+  #home_button:hover + #home_button:after{
+    content: "About Me"
+  }
